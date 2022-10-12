@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;;
+  color: #333;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #030303;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 5px;
+}
+.content {
+  max-width: 1000px;
+  margin: 35px auto;
+  padding: 20px;
+}
+
+.old-details
+{
+  margin-bottom: 5%;
+}
+
+/* .interview-preview:hover {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.interview-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+.interview-preview h2 {
+  font-size: 20px;
+  color: #4c47c5;
+  margin-bottom: 8px;
+} */
+
+.add-btn {
+  color: white;
+  background-color: #4c47c5;
+  border-radius: 5px;
+}
+
+.red-btn {
+  color: white;
+  background-color: #dc3545;
+  border-radius: 5px;
+}
+
+.green-btn {
+  color: white;
+  background-color: #18a558;
+  border-radius: 5px;
+  padding: 2px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.blue-btn {
+  color: white;
+  background-color: #4c47c5;
+  border-radius: 5px;
+}
+
+.schedule {
+  
+  margin: 0 auto;
+}
+.schedule label {
+  text-align: left;
+  margin-bottom: 5px;
+  margin-top: 15px;
+  display: block;
+}
+.schedule h2 {
+  font-size: 20px;
+  color: #4c47c5;
+  margin-bottom: 30px;
+}
+.schedule input,
+.schedule textarea,
+.schedule select {
+  width: 100%;
+  padding: 5px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.schedule button {
+  background: #4c47c5;
+  margin-top: 20px;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
